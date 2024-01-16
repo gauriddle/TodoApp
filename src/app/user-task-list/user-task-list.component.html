@@ -1,0 +1,33 @@
+<div class="row" style="align-items: top
+;height: 80vh;">
+  <div class="col-6">
+    <app-user-task (addTodo)="onAddTodo($event)" style="width: 100%;margin: auto;"></app-user-task>
+  </div>
+  <div class="col-6">
+    <div class="userTaskList">
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Task</th>
+            <th>Completed</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let todo of todos;let odd=odd;let even = even;" [ngClass]="{'even':even,'odd':odd}">
+            <td>{{ todo.Name }}</td>
+            <td>{{ todo.Task }}</td>
+            <td>{{ todo.isCompleted ? 'Yes' : 'No' }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+
+ 
+  
+   
+    
+  

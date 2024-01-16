@@ -1,0 +1,70 @@
+/* todo-form.component.css */
+  .form-field {
+    margin-bottom: 20px;
+  }
+
+  .formArea{
+    margin: 4%;
+    padding: 4%;
+  }
+
+  .inputFields{
+    align-items: center;
+    text-align: center;
+  }
+
+  .even{
+    background-color: teal;
+    padding: 4%;
+    margin: 2%;
+  }
+
+  .odd{
+    padding: 4%;
+    margin: 2%;
+    background-color: orange;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  input[type="text"], input[type="text"] {
+    width: calc(48% - 5px);
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  input[type="checkbox"] {
+    width: 20%;
+    margin-top: 10px;
+  }
+  
+  
+
+  .example-button-container {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    padding: 10px;
+    border-radius: 10%;
+  }
+
+  .mat-icon{
+    cursor: pointer;
+  }
+
+  #userTask{
+    width: 100%;
+    margin: auto;
+  }
+  
